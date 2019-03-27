@@ -1,0 +1,136 @@
+/*Desktop css*/
+p {
+    font-size: 20px;
+}
+
+.top {
+    width: 20%;
+    height: 240px;
+    float: left;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.end {
+    width: 50%;
+    height: 30%;
+    padding: 1em;
+    margin: 9%;
+    font-size: 20px;
+}
+
+#newInfo {
+    margin-left: 7.5%;
+}
+
+input {
+    width: 50%;
+}
+
+.newButton {
+    width: 60%;
+    height: 60%;
+    padding: 1%;
+}
+
+#gameArea {
+    width: 80%;
+    float: left;
+    padding-left: 12%;
+    padding-right: 2%;
+    margin-left: 3.5%;
+}
+
+/*Card styles*/
+.card {
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin: 2%;
+}
+.card0 {
+    background-image: url(../Graphics/Number0fullscreenweb.jpg);
+}
+
+.card1 {
+    background-image: url(../Graphics/Number1fullscreenwebnew.jpg);
+}
+
+.card2 {
+    background-image: url(../Graphics/Number2fullscreenwebnew.jpg);
+}
+.card3 {
+    background-image: url(../Graphics/Number3fullscreenwebnew.jpg);
+}
+
+.card4 {
+    background-image: url(../Graphics/Number4fullscreenwebnew.jpg);
+}
+
+#six {
+    clear: left;
+}
+
+#footer {
+    margin: 1%;
+    margin-left: 11%;
+    width: 80%;
+    text-align: center;
+    float: left;
+}
+
+@media only screen and (max-width: 980px)
+{
+    div h2 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    
+    .top {
+        width: 20%;
+        height: 125px;
+        margin: 1%;
+    }
+    .newButton {
+        width: 40%;
+        height: 30%;
+    }
+    .end {
+        width: 50%;
+        height: 40%;
+        font-size: 13px;
+        padding: 4%;
+        margin: 1%;
+    }
+    #gameArea {
+        padding-left: 3%;
+        margin-left: 9%;
+    }
+    .card {
+        width: 116px;
+        height: 150px;
+        float: left;
+        margin: 2%;
+    }
+    .card0 {
+        background-image: url(../Graphics/Number0tablet.jpg);
+    }
+
+    .card1 {
+        background-image: url(../Graphics/Number1tablet.jpg);
+    }
+
+    .card2 {
+        background-image: url(../Graphics/Number2tablet.jpg);
+    }
+    .card3 {
+        background-image: url(../Graphics/Number3tablet.jpg);
+    }
+
+    .card4 {
+        background-image: url(../Graphics/Number4tablet.jpg);
+    }
+    
+}

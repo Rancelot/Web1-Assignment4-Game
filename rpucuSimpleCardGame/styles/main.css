@@ -1,0 +1,63 @@
+/*Reset browser defaults*/
+html, body, div, span, article, header, footer, nav,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: balooBhaina;
+    src: url("BalooBhaina-Regular.ttf");
+}
+
+body {
+    background: -webkit-linear-gradient(green, lightgreen);
+    font-family: balooBhaina;
+}
+
+
+div h1 {
+    text-align: center;
+    font-size: 40px;
+    color: aqua;
+    background-color: blue;
+    border: 2px solid lightblue;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/*Top Gray boxes before gameArea styles*/
+.top {
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#gameArea {
+    background-image: url(../Graphics/gameArea.jpg);
+    
+}
+
+/*Pseudo-link styles*/
+.card:hover {
+    box-shadow: 8px 8px 5px #20DB74;
+}
+
+.card:active {
+    width: 10%;
+}
+
+.chosen {
+    opacity: 0.5;
+}
+
+#footer {
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    background-color: lightgray;
+}

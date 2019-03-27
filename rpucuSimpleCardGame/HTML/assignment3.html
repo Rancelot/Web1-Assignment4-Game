@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Assignment 3 Advanced CSS GAME</title>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/desktop.css" media="only screen and (min-width: 481px)">
+    <link rel="stylesheet" type="text/css" href="../styles/mobile.css" media="only screen and (max-width: 480px)">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="../scripts/jscript.js"></script>
+</head>
+
+<body>
+    
+    <div id="header"> <!--Header-->
+        <h1>Learning Addition</h1>
+    </div>
+    
+    <div class="top" id="newInfo"> <!--New Game Player ID FORM-->
+        
+            <h2>New Game?</h2>
+            <form method="post" action="http://ins.mtroyal.ca/~nkhemka/process.php">
+                <p>
+                    <label>Player 1:</label>
+                    <input type="text" name="player1" placeholder="Player 1">
+                </p>
+                <p>
+                    <label>Player 2:</label>
+                    <input type="text" name="player2" placeholder="Player 2">
+                </p>
+                <button type="submit" value="submit" class="newButton" id="restartGame">New Game</button>
+            </form>
+        
+    </div>
+    
+    <div class="top hide" id="playerMove"> <!--Player Moves-->
+        <h2><span id="current">Player 1</span>'s Move</h2>
+        <p>
+            Sum to beat: <span id="beatSum">0</span>
+        </p>
+    </div>
+    
+    <div class="top" id="playerScore"> <!--Player Score-->
+        <h2>Player Scores</h2>
+        <p><span id="p1name">Player 1</span>: <span id="score1">0</span> points</p>
+        <p><span id="p2name">Player 2</span>: <span id="score2">0</span> points</p>
+    </div>
+    
+    <div class="top hide" id="endArea"> <!--End Area--> <!--buttons dont need forms in order to function-->
+            <button type="submit" value="submit" class="end" id="endTurn">End Turn</button>
+            <button type="submit" value="submit" class="end" id="endGame">End Game</button>
+    </div>
+    
+    <div id="gameArea" class="hide"> <!--Game Area(Images each have their own respective div)-->
+        <div class="card card0"></div>
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+        <div class="card card4"></div>
+        <div class="card card0" id="six"></div>
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+        <div class="card card4"></div>
+    </div>
+    
+    <div id="footer"> <!--Footer-->
+        <p>&copy; Rafael Angelo Pucut COMP 2511-Assignment 4</p>
+    </div>
+    
+</body>
+
+</html>
