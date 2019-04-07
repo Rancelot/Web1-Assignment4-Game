@@ -1,4 +1,4 @@
-# web1-game
+# Web1 Assignment4 Game
 First Web Development Course Final Project
 During WINTER 2017
 
